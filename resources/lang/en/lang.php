@@ -1,10 +1,10 @@
 <?php 
 return[
     'h1' => "NEWS",
-    'h2' => "Services",
+    'h2' => "Service",
     'h3' => "Statistics",
     'h4' => "TOP week",
-    'h5' => "ABOUT US",
+    'h5' => "ABOUT",
     'h6' => "Contacts",
 
     'ques' => "Any questions?",

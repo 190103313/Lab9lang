@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+//use App\Http\Controllers\LocalizationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,8 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('index');
+});
+
 Route::get('/{lang}', function ($lang){
     App::setlocale($lang);
     return view('index');
 
 });
+
+//Route::get('/{lang}', 'LocalizationController@index');
